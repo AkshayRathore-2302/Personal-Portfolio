@@ -394,7 +394,17 @@
       typeSpeed: 100,
       backSpeed: 80,
       backDelay: 1000,
+
+      
     });
+
+
+    window.onload = function() {
+        if (/Mobi|Android/i.test(navigator.userAgent)) {
+            alert("⚠⚠ Please Enable Desktop site ⚠⚠ ");
+        }
+      }
+   
   </script>
     </body>
   </html>
